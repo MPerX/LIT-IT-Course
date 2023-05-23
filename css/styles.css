@@ -31,7 +31,11 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+  .header_social-p{
+    font-size: 8px;
+    color: rgb(3, 11, 129);
+    text-align:right ;
+  }
   /* стиль для изображения */
   img {
     display: block;
@@ -58,11 +62,18 @@ body {
   }
   
   /* стиль для блока с фоном */
-  .section {
+  section {
     background-color: #fff;
     padding: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  header {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 10px;
   }
