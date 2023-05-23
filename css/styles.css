@@ -1,7 +1,7 @@
 /* общие стили */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f8f8;
+    background-color: #e7d9b9;
   }
   
   /* стиль для заголовка */
@@ -27,7 +27,7 @@ body {
     font-size: 18px;
     color: #666;
     line-height: 1.5;
-    text-align: justify;
+    text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -63,7 +63,7 @@ body {
   
   /* стиль для блока с фоном */
   section {
-    background-color: #fff;
+    background-color: rgb(231, 204, 154);
     padding: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -71,7 +71,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   header {
-    background-image: url("");
+    background-color: #e7d9b9;
     background-size: cover;
     background-position: center;
     color: #fff;
