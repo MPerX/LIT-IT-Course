@@ -1,10 +1,10 @@
-/* общие стили */
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e7d9b9;
+    background-color: #f7ba36e1;
   }
   
-  /* стиль для заголовка */
+  
   h1 {
     font-size: 48px;
     font-weight: bold;
@@ -13,7 +13,7 @@ body {
     margin-top: 50px;
   }
   
-  /* стиль для подзаголовка */
+  
   h2 {
     font-size: 36px;
     font-weight: bold;
@@ -22,7 +22,7 @@ body {
     margin-top: 30px;
   }
   
-  /* стиль для основного текста */
+  
   p {
     font-size: 18px;
     color: #666;
@@ -36,13 +36,11 @@ body {
     color: rgb(3, 11, 129);
     text-align:right ;
   }
-  /* стиль для изображения */
-
-  /* стиль для кнопок */
+  
   .button {
     display: inline-block;
     font-size: 16px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: #333;
     padding: 10px 20px;
     border-radius: 5px;
@@ -51,23 +49,20 @@ body {
     margin-top: 20px;
     transition: background-color 0.3s ease;
   }
-  
   .button:hover {
     background-color: #666;
   }
-  
-  /* стиль для блока с фоном */
   section {
-    background-color: rgb(231, 204, 154);
+    background-color: rgb(235, 198, 130);
     padding: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  header {
-    background-color: #e7d9b9;
+  .header {
     background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLpBT2SK2Q7O38tG2K4z2ylCQwVlzcRoadQQ&usqp=CAU");
     background-position: center;
     color: #fff;
     padding: 10px;
@@ -77,4 +72,12 @@ body {
     height: 200px; 
     display: block;
     object-fit: cover; /* Зберігати пропорції та обрізати зайву частину */
+  }
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f1cd97; 
+    
   }
