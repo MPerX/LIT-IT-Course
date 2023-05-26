@@ -3,8 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f7ba36e1;
   }
-  
-  
+    
   h1 {
     font-size: 48px;
     font-weight: bold;
@@ -12,8 +11,7 @@ body {
     text-align: center;
     margin-top: 50px;
   }
-  
-  
+    
   h2 {
     font-size: 36px;
     font-weight: bold;
@@ -21,8 +19,7 @@ body {
     text-align: center;
     margin-top: 30px;
   }
-  
-  
+   
   p {
     font-size: 18px;
     color: #666;
@@ -37,21 +34,7 @@ body {
     text-align:right ;
   }
   
-  .button1 {
-    display: inline-block;
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    background-color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-  }
-  .button:hover {
-    background-color: #666;
-  }
+   
   section {
     background-color: rgb(235, 198, 130);
     padding: 50px;
@@ -67,13 +50,13 @@ body {
     color: #fff;
     padding: 10px;
   }
-  img {
-    width: 200px;
-    height: 200px; 
+  .carousel-item img {
+    width: 400px;
+    height: 400px; 
     display: block;
-    object-fit: cover; /* Зберігати пропорції та обрізати зайву частину */
-  }
-  .container {
+    object-fit:scale-down; 
+  } 
+  .container1 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto; 
@@ -89,7 +72,7 @@ body {
     padding: 10px;
     
   }
-  .carousel {
+  /*.carousel {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -98,9 +81,9 @@ body {
   .carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
-    /* Добавляем отступы между фотографиями */
+    /* Добавляем отступы между фотографиями 
     gap: 10px;
-    /* Устанавливаем выравнивание по центру */
+    /* Устанавливаем выравнивание по центру 
     justify-content: center;
   }
   
@@ -133,18 +116,19 @@ body {
   .carousel-next {
     right: 10px;
   }
+  */
   
   /* Добавляем медиа-запросы для разных ширин экрана */
   @media (max-width: 720px) {
-    .carousel-inner {
-      /* Устанавливаем выравнивание в начало */
-      justify-content: flex-start;
+    .carousel-item img {
+      width: 300px;
+      height: 300px; 
     }
   }
   
   @media (max-width: 450px) {
-    .carousel-inner {
-      /* Устанавливаем выравнивание по центру */
-      justify-content: center;
+    .carousel-item img {
+      width: 200px;
+      height: 200px; 
     }
-  }
+  } 
