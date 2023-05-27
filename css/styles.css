@@ -34,7 +34,6 @@ body {
     text-align:right ;
   }
   
-   
   section {
     background-color: rgb(235, 198, 130);
     padding: 50px;
@@ -132,3 +131,36 @@ body {
       height: 200px; 
     }
   } 
+  /*a:visited {
+    color: rgba(2, 23, 26, 0.911);
+  }
+  a:hover {
+    color: rgb(247, 63, 7);
+  }*/
+  a:link, a:visited {
+    
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+ 
+  a:hover, a:active {
+    background-color: rgb(255, 145, 0);
+  }
+  .header-social-img img{
+    border-radius: 50%;
+    width: 30px;
+    height: auto;
+  }
+  .header-social-img {
+    display: flex;
+    justify-content: right;
+    height: auto;
+  }
+  .header-hyperlink{
+    justify-content: space-around;
+    display: flex;
+    align-items: flex-end;
+  }
